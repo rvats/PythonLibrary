@@ -30,16 +30,37 @@ print("Python is awesomer than C, C++, C#, Java, etc.")
 x = "Python is "
 y = "awesome."
 z =  x + y
-print("x = ", x, " Type of x = ", type(x), "y = ", y, " Type of y = ", type(y), "z = ", z, " Type of z = ", type(z))
+print("x = ", x, " Type of x = ", type(x),"\n\t", "y = ", y, " Type of y = ", type(y), "\n\t", "z = ", z, " Type of z = ", type(z))
 
 # Again manipulating types of variables
 x = 5
 y = 10
 z =  x + y
-print("x = ", x, " Type of x = ", type(x), "y = ", y, " Type of y = ", type(y), "z = ", z, " Type of z = ", type(z))
+print("x = ", x, " Type of x = ", type(x),"\n\t", "y = ", y, " Type of y = ", type(y), "\n\t", "z = ", z, " Type of z = ", type(z))
 
 # Again manipulating types of variables
 x = 1.5
 y = 10
 z =  x + y
-print("x = ", x, " Type of x = ", type(x), "y = ", y, " Type of y = ", type(y), "z = ", z, " Type of z = ", type(z))
+print("x = ", x, " Type of x = ", type(x),"\n\t", "y = ", y, " Type of y = ", type(y), "\n\t", "z = ", z, " Type of z = ", type(z))
+
+x = 1
+y = 2.8
+z = 1j
+print("x = ", x, " Type of x = ", type(x),"\n\t", "y = ", y, " Type of y = ", type(y), "\n\t", "z = ", z, " Type of z = ", type(z))
+
+x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3
+print("x = ", x, " Type of x = ", type(x),"\n\t", "y = ", y, " Type of y = ", type(y), "\n\t", "z = ", z, " Type of z = ", type(z))
+
+x = float(1)     # x will be 1.0
+y = float(2.8)   # y will be 2.8
+z = float("3")   # z will be 3.0
+w = float("4.2") # w will be 4.2
+print("w = ", w, " Type of w = ", type(w), "\n\t", "x = ", x, " Type of x = ", type(x),"\n\t", "y = ", y, " Type of y = ", type(y), "\n\t", "z = ", z, " Type of z = ", type(z))
+
+x = str("s1") # x will be 's1'
+y = str(2)    # y will be '2'
+z = str(3.0)  # z will be '3.0'
+print("x = ", x, " Type of x = ", type(x),"\n\t", "y = ", y, " Type of y = ", type(y), "\n\t", "z = ", z, " Type of z = ", type(z))
