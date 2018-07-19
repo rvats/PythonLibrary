@@ -24,5 +24,22 @@ print("y = ", y,type(y))
 x = y
 print("Assigning y to x")
 print("x = ",x,type(x))
-
 print("Python is awesomer than C, C++, C#, Java, etc.")
+
+# Again manipulating types of variables
+x = "Python is "
+y = "awesome."
+z =  x + y
+print("x = ", x, " Type of x = ", type(x), "y = ", y, " Type of y = ", type(y), "z = ", z, " Type of z = ", type(z))
+
+# Again manipulating types of variables
+x = 5
+y = 10
+z =  x + y
+print("x = ", x, " Type of x = ", type(x), "y = ", y, " Type of y = ", type(y), "z = ", z, " Type of z = ", type(z))
+
+# Again manipulating types of variables
+x = 1.5
+y = 10
+z =  x + y
+print("x = ", x, " Type of x = ", type(x), "y = ", y, " Type of y = ", type(y), "z = ", z, " Type of z = ", type(z))
