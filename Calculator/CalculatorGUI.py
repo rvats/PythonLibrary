@@ -71,10 +71,10 @@ class calc:
 	
 	def __init__(self,master):
 		"""Constructor method"""
-		master.title('Calulator') 
+		master.title('Graphical Scientific Calulator By Rahul Vats') 
 		master.geometry()
 		self.e = Entry(master)
-		self.e.grid(row=0,column=0,columnspan=6,pady=3)
+		self.e.grid(row=0,column=0,columnspan=30,pady=5)
 		self.e.focus_set() #Sets focus on the input text area
 				
 		self.div='÷'
@@ -114,7 +114,8 @@ class calc:
 		Button(master,text="+",width=3,command=lambda:self.action('+')).grid(row=4, column=3)
 		Button(master,text="=",width=10,command=lambda:self.equals()).grid(row=4, column=4,columnspan=2)
 		
-		# Row 5 Items		
+		# Row 5 Items
+		Button(master,text="This is Awesome.",width=10)
 		
 #Main
 root = Tk()
