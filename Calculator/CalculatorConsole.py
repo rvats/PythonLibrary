@@ -17,22 +17,75 @@ def multiply(x, y):
 def divide(x, y):
    return x / y
 
-# This function calculate percentage of x with y
-def percentage(x, y):
-   return x / y * 100.0
+# This function calculate modulus of x with y
+def modulus(x, y):
+   return x % y 
 
-# This function calculate percentage of x with y
+# This function calculate power of x with y
 def power(x, y):
-   return math.pow(x,y)
+   return x ** y
 
+
+# This function calculate floordivision of x with y
+def floordivision(x, y):
+   return x // y
+
+# This function shifts y bits in x to left
+def leftshift(x, y):
+   return x << y
+
+# This function shifts y bits in x to right
+def rightshift(x, y):
+   return x >> y
+
+# This function performs logical and operation on bits of x and y
+def andoperator(x, y):
+   return x & y
+
+# This function performs logical or operation on bits of x and y
+def oroperator(x, y):
+   return x | y
+
+"""
+Python's Binary Operator
++	Addition	        x + y	
+-	Subtraction	        x - y	
+*	Multiplication	        x * y	
+/	Division	        x / y	
+%	Modulus	                x % y	
+**	Exponentiation	        x ** y	 
+//	Floor division	        x // y
+<<      Left Shift Operator     x << y
+>>      Right Shift Operator    x >> y
+&       Logical And Operator    x & y
+|       Logical Or Operator     x | y
+Python's Unary Operator
++=	x += 3	x = x + 3	
+-=	x -= 3	x = x - 3	
+*=	x *= 3	x = x * 3	
+/=	x /= 3	x = x / 3	
+%=	x %= 3	x = x % 3	
+//=	x //= 3	x = x // 3	
+**=	x **= 3	x = x ** 3	
+&=	x &= 3	x = x & 3	
+|=	x |= 3	x = x | 3	
+^=	x ^= 3	x = x ^ 3	
+>>=	x >>= 3	x = x >> 3	
+<<=	x <<= 3	x = x << 3
+"""
 
 print("Select any operation listed below.")
 print("1. Add or +")
 print("2. Subtract or -")
 print("3. Multiply or *")
 print("4. Divide or /")
-print("5. Percentage or %")
-print("6. Power or ^")
+print("5. Modulus or %")
+print("6. Power or **")
+print("7. Floor division or //")
+print("8. Left Shift or <<")
+print("9. Right Shift or >>")
+print("10. AND or &")
+print("11. OR or |")
 
 # Take input from the user 
 choice = input("Enter choice [(either 1 or 2 or ... or 11) or (operator sign as +, -, *, ^, /, etc)]: ")
@@ -58,8 +111,23 @@ elif choice == '4' or choice == '/':
 elif choice == '5' or choice == '%':
     print(num1,"%",num2,"=", percentage(num1,num2))
 
-elif choice == '6' or choice == '^':
-    print(num1,"^",num2,"=", power(num1,num2))    
+elif choice == '6' or choice == '**':
+    print(num1,"**",num2,"=", power(num1,num2))
+
+elif choice == '7' or choice == '//':
+    print(num1,"//",num2,"=", floordivision(num1,num2))
+
+elif choice == '8' or choice == '<<':
+    print(num1,"<<",num2,"=", leftshift(num1,num2))
+
+elif choice == '9' or choice == '>>':
+    print(num1,">>",num2,"=", rightshift(num1,num2))
+
+elif choice == '10' or choice == '&':
+    print(num1,"&",num2,"=", andoperator(num1,num2))
+
+elif choice == '11' or choice == '|':
+    print(num1,"|",num2,"=", oroperator(num1,num2))
 
     
 else:
