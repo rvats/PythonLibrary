@@ -1,3 +1,8 @@
+"""
+@Author: Rahul Vats
+@AuthorEmail: vats.rahul@gmail.com
+@Note: This program turns on your webcam.
+"""
 import cv2
 
 cv2.namedWindow("preview")

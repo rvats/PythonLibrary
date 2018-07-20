@@ -1,3 +1,8 @@
+"""
+@Author: Rahul Vats
+@AuthorEmail: vats.rahul@gmail.com
+@Note: This algorithm uses opencv2 to detect face in a webcam feed.
+"""
 # This script will detect faces via your webcam.
 # Tested with OpenCV3
 

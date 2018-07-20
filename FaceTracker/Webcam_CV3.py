@@ -1,3 +1,8 @@
+"""
+@Author: Rahul Vats
+@AuthorEmail: vats.rahul@gmail.com
+@Note: This algorithm uses opencv2 to detect face in a webcam feed.
+"""
 import cv2
 import sys
 import logging as log

@@ -1,3 +1,8 @@
+"""
+@Author: Rahul Vats
+@AuthorEmail: vats.rahul@gmail.com
+@Note: This algorithm uses opencv2 to detect face in a picture.
+"""
 import cv2
 import sys
 
