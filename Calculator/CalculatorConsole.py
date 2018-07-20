@@ -38,16 +38,17 @@ def leftshift(x, y):
 def rightshift(x, y):
    return x >> y
 
-# This function performs logical and operation on bits of x and y
+# This function performs bitwise and operation or Sets each bit to 1 if both bits are 1 on bits of x and y
 def andoperator(x, y):
    return x & y
 
-# This function performs logical or operation on bits of x and y
+# This function performs bitwise or operation or Sets each bit to 1 if either bits are 1 on bits of x and y
 def oroperator(x, y):
    return x | y
 
 """
 Python's Binary Operator
+   Python's Arithmetic Operator
 +	Addition	        x + y	
 -	Subtraction	        x - y	
 *	Multiplication	        x * y	
@@ -55,10 +56,13 @@ Python's Binary Operator
 %	Modulus	                x % y	
 **	Exponentiation	        x ** y	 
 //	Floor division	        x // y
-<<      Left Shift Operator     x << y
->>      Right Shift Operator    x >> y
-&       Logical And Operator    x & y
-|       Logical Or Operator     x | y
+   Python Bitwise Operators
+& 	AND	Sets each bit to 1 if both bits are 1
+|	OR	Sets each bit to 1 if one of two bits is 1
+ ^	XOR	Sets each bit to 1 if only one of two bits is 1
+~ 	NOT	Inverts all the bits
+<<	Zero fill left shift	Shift left by pushing zeros in from the right and let the leftmost bits fall off
+>>	Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
 Python's Unary Operator
 +=	x += 3	x = x + 3	
 -=	x -= 3	x = x - 3	
