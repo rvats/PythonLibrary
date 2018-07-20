@@ -1,3 +1,8 @@
+"""
+@Author: Rahul Vats
+@AuthorEmail: vats.rahul@gmail.com
+@Note: This program is under progress. It tracks your face using your camera
+"""
 #import required libraries
 import time
 import cv2

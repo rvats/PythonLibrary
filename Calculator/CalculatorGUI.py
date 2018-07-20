@@ -1,3 +1,8 @@
+"""
+@Author: Rahul Vats
+@AuthorEmail: vats.rahul@gmail.com
+@Note: This program creates a GUI calculator using tkinter library
+"""
 #-*-coding: utf-8-*-
 try:
     # for Python2

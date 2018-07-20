@@ -1,3 +1,8 @@
+"""
+@Author: Rahul Vats
+@AuthorEmail: vats.rahul@gmail.com
+@Note: This is a console based calculator program
+"""
 ''' Program make a simple calculator that can add, subtract, multiply and divide using functions '''
 import math
 

@@ -1,7 +1,7 @@
 """
 @Author: Rahul Vats
 @AuthorEmail: vats.rahul@gmail.com
-@Note: This is the Hello World Program
+@Note: This program illustrates the use of datatypes for variable
 """
 # Declare a variable x as 5
 x = 5

@@ -1,7 +1,7 @@
 """
 @Author: Rahul Vats
 @AuthorEmail: vats.rahul@gmail.com
-@Note: This is the Hello World Program
+@Note: This program shows string literals and some of their operations
 """
 stringLiteral = "Hello"
 for i in range(5):
