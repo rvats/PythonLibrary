@@ -77,7 +77,7 @@ def eliminate(values, s, d):
     for u in units[s]:
         dplaces = [s for s in u if d in values[s]]
         if len(dplaces) == 0:
-            return False
+            return False ## Contradiction: no place for this value
         elif len(dplaces) == 1:
 	    # d can only be in one place in unit; assign it there
             if not assign(values, dplaces[0], d):
